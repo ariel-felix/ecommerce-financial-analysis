@@ -18,10 +18,10 @@
 
 **customers:** Información sobre los clientes (ubicación, ID del cliente, etc.).
 
+
 **products:** Detalles de los productos vendidos (categoría, nombre, etc.).
 
 **sellers:** Información sobre los vendedores de la plataforma.
-
 **order_payments:** Detalles sobre los pagos de los pedidos (valor, método de pago, etc.).
 
 **order_reviews:** Evaluaciones y comentarios de los clientes.
@@ -31,7 +31,7 @@
 
 La imagen a continuación muestra el esquema de datos: 
 
-![image](https://github.com/user-attachments/assets/1310da22-af82-4aa5-b096-94310568be95)
+![image](https://github.com/ariel-felix/ecommerce-financial-analysis/blob/main/images/schema-olist.png)
 
 Figura 1. Esquema de datos proporcionados por la empresa. Fuente: Olist. 
 
@@ -118,7 +118,7 @@ En Power BI, se ajustaron los tipos de datos y se crearon medidas en DAX para ca
 
 Las relaciones se establecieron con cardinalidad (Muchos a Uno - *:1), conectando las tablas por sus respectivos IDs.
 
-![image](https://github.com/user-attachments/assets/bf69e1ea-e943-4e39-9173-0f26c55708a1)
+![image](https://github.com/ariel-felix/ecommerce-financial-analysis/blob/main/images/model.png)
 
 Figura 2. Modelo Star Schema en Power BI. Fuente: Autor. 
 
@@ -143,7 +143,7 @@ Ticket promedio por año (línea).
 
 Total de pedidos por año (barras).
 
-![image](https://github.com/user-attachments/assets/d26119e7-0e38-4cfc-b938-41c824e812db)
+![image](https://github.com/ariel-felix/ecommerce-financial-analysis/blob/main/images/bi-image.png)
 
 Figura 3. Dashboard Final. Fuente: Autor
 
